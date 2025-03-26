@@ -33,6 +33,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
+      <button onClick={()=> navigate('/add-movie')}>Add Book</button>
       <header className="dashboard-header">
         <h1>Movie Collection</h1>
       </header>
